@@ -6,7 +6,15 @@ function decrypt(data) {
     return decrypt('data');
   }
   
+
+
+  // export {
+  //   read
+  // }
+
+  console.log('we are in the response module');
   
   module.exports = {
-    read
+    read,
+    decrypt
   }
